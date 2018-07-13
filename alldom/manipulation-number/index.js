@@ -14,9 +14,8 @@ const getNumbers = () => {
     console.log("numberFirst:", numberFirst);
     console.log("numberSecond:", numberSecond);
 
-    button. addEventListener("click", getNumbers);
-
     output.innerText = `First number: ${numberFirst}
     Second number: ${numberSecond}`
-
 }
+
+button. addEventListener("click", getNumbers);

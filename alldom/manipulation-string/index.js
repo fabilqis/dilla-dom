@@ -13,10 +13,10 @@ const getStrings = () => {
     const momFirst = document.getElementById("text-first-mother").value
     const momSecond = document.getElementById("text-second-mother").value
 
-    const suggest1 = fatherFirst + " " + momFirst
-    const suggest2 = fatherSecond +" " + momSecond
-    const suggest3 = fatherFirst + " " + momSecond
-    const suggest4 = fatherSecond + " " + momFirst
+    const suggest1 = `${fatherFirst} ${momFirst}`
+    const suggest2 = `${fatherSecond} ${momSecond}`
+    const suggest3 = `${fatherFirst}  ${momSecond}`
+    const suggest4 = `${fatherSecond}  ${momFirst}`
 
     console.log("First suggestion:", suggest1);
     console.log("Second suggestion:", suggest2);
