@@ -1,7 +1,7 @@
 //Manipulation Number
 //Created by fabilqis
 
-console.log("> Manipulation Number< ")
+console.log(">Manipulation Number< ")
 
 const title = document.getElementById("title")
 
@@ -14,9 +14,9 @@ const getNumbers = () => {
     console.log("numberFirst:", numberFirst);
     console.log("numberSecond:", numberSecond);
 
+    button. addEventListener("click", getNumbers);
 
-    output.innerText = `
-    First number: ${numberFirst}
+    output.innerText = `First number: ${numberFirst}
     Second number: ${numberSecond}`
 
 }
